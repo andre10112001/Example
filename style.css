@@ -4,9 +4,39 @@ h1 {
 
 form {
     text-align: center;
+    position: relative;
 }
 
 .right_text {
     text-align: right;
     color:blue
 }
+
+.vertical_space {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    border-radius: 30px;
+    border-color: black;
+    border-width: 2px;
+    width: 550px;
+    height: 40px;
+    background-color: white;
+}
+
+input[type="text"]:hover {
+    border-width: 3px;
+    margin-bottom: 0px;
+}
+
+input[type="submit"] {
+    border-radius: 2px;
+    border-width: 0.5px;
+}
+
+input[type="submit"]:hover {
+    border-radius: 2px;
+    border-width: 1.5px;
+}
+
